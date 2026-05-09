@@ -1,2 +1,21 @@
 2026-05-09 01:02:44,782 - data_ingestion - ERROR - File not found: params.yaml
 2026-05-09 01:02:44,782 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2026-05-09 16:03:29,310 - data_ingestion - ERROR - File not found: params.yaml
+2026-05-09 16:03:29,318 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2026-05-09 21:41:32,536 - data_ingestion - ERROR - File not found: params.yaml
+2026-05-09 21:41:32,539 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2026-05-09 21:47:20,666 - data_ingestion - ERROR - Unexpected error: [Errno 13] Permission denied: 'params.yaml'
+2026-05-09 21:47:20,668 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 13] Permission denied: 'params.yaml'
+2026-05-09 21:51:25,547 - data_ingestion - ERROR - File not found: params.yaml
+2026-05-09 21:51:25,547 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2026-05-09 21:55:19,947 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-05-09 21:55:19,949 - data_ingestion - ERROR - Unexpected error occurred while loading the data: [Errno 2] No such file or directory: 'Experiments/spam.csv'
+2026-05-09 21:55:19,949 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'Experiments/spam.csv'
+2026-05-09 21:56:50,428 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-05-09 21:56:50,476 - data_ingestion - DEBUG - Data loaded from MLOPS-END-TO-END-PIPELINE-SPAM-REPORTER/Experiments/spam.csv
+2026-05-09 21:56:50,482 - data_ingestion - DEBUG - Data preprocessing completed
+2026-05-09 21:56:50,510 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-05-09 22:08:24,734 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-05-09 22:08:24,761 - data_ingestion - DEBUG - Data loaded from MLOPS-END-TO-END-PIPELINE-SPAM-REPORTER/Experiments/spam.csv
+2026-05-09 22:08:24,766 - data_ingestion - DEBUG - Data preprocessing completed
+2026-05-09 22:08:24,795 - data_ingestion - DEBUG - Train and test data saved to ./data\raw

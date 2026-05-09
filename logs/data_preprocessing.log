@@ -1,0 +1,60 @@
+2026-05-09 22:05:09,298 - data_preprocessing - DEBUG - Data loaded properly
+2026-05-09 22:05:09,299 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-05-09 22:05:09,306 - data_preprocessing - DEBUG - Target column encoded
+2026-05-09 22:05:09,319 - data_preprocessing - DEBUG - Duplicates removed
+2026-05-09 22:05:09,322 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\lenovo/nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-05-09 22:05:09,324 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\lenovo/nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\lenovo\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-05-09 22:10:10,246 - data_preprocessing - DEBUG - Data loaded properly
+2026-05-09 22:10:10,247 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-05-09 22:10:10,249 - data_preprocessing - DEBUG - Target column encoded
+2026-05-09 22:10:10,260 - data_preprocessing - DEBUG - Duplicates removed
+2026-05-09 22:11:09,376 - data_preprocessing - DEBUG - Text column transformed
+2026-05-09 22:11:09,377 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-05-09 22:11:09,377 - data_preprocessing - DEBUG - Target column encoded
+2026-05-09 22:11:09,379 - data_preprocessing - DEBUG - Duplicates removed
+2026-05-09 22:11:25,301 - data_preprocessing - DEBUG - Text column transformed
+2026-05-09 22:11:25,320 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
